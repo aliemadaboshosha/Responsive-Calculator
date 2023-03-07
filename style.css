@@ -1,0 +1,36 @@
+.main-container {
+	display: flex;
+	width: 80vw;
+	height: 40vh;
+	background-color: rgb(96, 60, 60);
+	margin: 120px auto;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+	border-radius: 2rem;
+}
+
+#add,
+#mul {
+	flex: 48%;
+	border: 2px solid black;
+	border-radius: 1rem;
+	background-color: rgb(146, 55, 55);
+	padding: 1rem;
+	font-size: 20px;
+	margin: 1rem;
+}
+
+input {
+	width: 6rem;
+	height: 3rem;
+	padding: 0.5rem;
+	border: solid 2px gray;
+	border-radius: 0.5rem;
+	font-size: 20px;
+}
+
+h3 {
+	text-transform: uppercase;
+	margin-bottom: 1.3rem;
+}
